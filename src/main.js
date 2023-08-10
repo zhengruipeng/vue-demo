@@ -19,7 +19,7 @@ Vue.use(ElementUI)
 Vue.config.productionTip = false
 
 new Vue({
-	store,//将Vuex数据注册到Vue的全局对象上
-  router,//将路由的数据注册到Vue的全局对象上
-  render: h => h(App)//渲染页面
-}).$mount('#app')
+    store,//将Vuex数据注册到Vue的全局对象上
+    router,//将路由的数据注册到Vue的全局对象上
+    render: h => h(App)//渲染页面
+}).$mount('#app');
